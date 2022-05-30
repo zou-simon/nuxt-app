@@ -3,3 +3,17 @@ html {
     color: white;
     background-color: black;
 }
+
+#bg-devanture {
+    background-image: url('/assets/devanture.jpg');
+}
+
+@media (min-width: 768px) {
+    #bg-chirashi {
+        background-image: url('/assets/chirashi.png');
+    }
+    
+    #bg-brochettes {
+        background-image: url('/assets/brochettes.png');
+    }
+}
