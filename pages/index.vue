@@ -52,9 +52,5 @@
                 Menu
             </a>
         </div>
-        <footer class="sm:col-span-2 md:col-span-3 rounded-lg bg-neutral-900 xs:text-center p-4">
-            <a href="" class="hover:text-neutral-300">Mentions Légales</a>
-            <p class="text-neutral-400">Copyright © {{ new Date().getFullYear() }} ZUL SAS. Tous droits réservés.</p>
-        </footer>
     </div>
 </template>
