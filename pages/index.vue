@@ -9,10 +9,10 @@
                 <p class="text-md md:text-xl font-light tracking-wider">Restaurant Japonais</p>
             </div>
 
-            <a href="https://maps.google.com/?q=Tokyo+Yaki+75020"
+            <NuxtLink to="https://maps.google.com/?q=Tokyo+Yaki+75020"
                 class="uppercase bg-white text-black font-bold text-center border-4 border-black py-2 px-4 md:w-1/2 hover:bg-neutral-300">
                 Y&nbsp;aller
-            </a>
+            </NuxtLink>
         </div>
         <div class="md:row-span-2 md:col-span-2 bg-primary p-4 md:p-8">
             <h2 class="text-xl md:text-2xl uppercase font-bold tracking-wider mb-1">À propos</h2>
@@ -21,9 +21,9 @@
                     <p>
                         253 Rue des Pyrénées, 75020 Paris
                     </p>
-                    <a href="tel:+33143150371" class="hover:text-neutral-300 hover:underline">
+                    <NuxtLink to="tel:+33143150371" class="hover:text-neutral-300 hover:underline">
                         +33 1 43 15 03 71
-                    </a>
+                    </NuxtLink>
                 </div>
                 <div>
                     <p>
@@ -43,15 +43,15 @@
             </div>
         </div>
         <div class="sticky md:static bottom-2 flex md:col-span-2 space-x-2 md:space-x-4 my-2 md:my-0">
-            <NuxtLink to="#"
-                activeClass="w-full group grid md:content-center md:justify-center md:bg-center md:bg-cover md:bg-primary md:bg-no-repeat hover:bg-contain" id="bg-chirashi">
+            <NuxtLink to="/"
+                class="w-full group grid md:content-center md:justify-center md:bg-center md:bg-cover md:bg-primary md:bg-no-repeat hover:bg-contain" id="bg-chirashi">
                 <span
                     class="uppercase bg-white text-black font-bold w-full md:w-auto text-center md:border-4 md:border-black p-2 md:py-3 md:px-6 group-hover:bg-neutral-300">
                     Commander
                 </span>
             </NuxtLink>
-            <NuxtLink to="#"
-                activeClass="w-full group grid md:content-center md:justify-center md:bg-center md:bg-cover md:bg-primary md:bg-no-repeat hover:bg-contain" id="bg-brochettes">
+            <NuxtLink to="/"
+                class="w-full group grid md:content-center md:justify-center md:bg-center md:bg-cover md:bg-primary md:bg-no-repeat hover:bg-contain" id="bg-brochettes">
                 <span
                     class="uppercase bg-white text-black font-bold w-full md:w-auto text-center md:border-4 md:border-black p-2 md:py-3 md:px-6 group-hover:bg-neutral-300">
                     Menu
