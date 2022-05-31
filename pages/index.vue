@@ -1,5 +1,8 @@
 <template>
     <main class="md:grid md:grid-rows-3 md:grid-cols-4 md:grid-flow-col md:gap-4 md:min-h-screen p-4 pb-2 md:pb-4">
+        <Head>
+            <Title>Tokyo Yaki</Title>
+        </Head>
         <div class="flex flex-col md:row-span-3 md:col-span-2 bg-center bg-cover md:grid md:content-evenly place-items-center p-4 mb-4 md:mb-0" id="bg-devanture">
             <div class="text-center mb-4">
                 <h1 class="text-5xl md:text-7xl font-black uppercase">Tokyo Yaki</h1>
