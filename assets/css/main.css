@@ -12,8 +12,18 @@ html {
     #bg-chirashi {
         background-image: url('/assets/chirashi.png');
     }
-    
+
     #bg-brochettes {
         background-image: url('/assets/brochettes.png');
     }
+}
+
+.page-enter-active,
+.page-leave-active {
+    transition: opacity 0.3s;
+}
+
+.page-enter,
+.page-leave-to {
+    opacity: 0;
 }
